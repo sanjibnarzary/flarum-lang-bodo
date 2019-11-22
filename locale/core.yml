@@ -39,28 +39,28 @@ core:
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
+      default_language_heading: थाखानाय राव
+      forum_description_heading: फरामनि बेंफोरथि
       forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: Choose the page which users will first see when they visit your forum.
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      forum_title_heading: फराम  Forum Title
+      home_page_heading: न बिलाय
+      home_page_text: बाहायगिरिफोरा जेब्ला नोंनि फरामाव सिगां बेरायफैयो अब्ला नुनो हानाय बिलायखौ बासि ।
+      saved_message: नोंनि सोलायनायफोरा थुबुर जाबाय ।
+      show_language_selector_label: राव बासिग्राखौ दिन्थि
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
+      welcome_banner_heading: गोजोन फै बेननार
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
 
     # These translations are used in the Dashboard page.
     dashboard:
-      clear_cache_button: Clear Cache
-      tools_button: Tools
+      clear_cache_button: Cache साफा खालाम
+      tools_button: आयजें आयलाफोर
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: आलादा  CSS सोदेर
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -71,15 +71,15 @@ core:
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
+      delete_button: हानजा हुखोमोर
+      delete_confirmation: "नोंङो थारैनो बे हानजाखौ हुखोमोरमारगोन ने? बे हानजानि सोद्रोमाफोरा हुखोमोरजानाय नङा ।"
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
+      name_label: मुं
+      plural_placeholder: "बांसानराय (जेरै: नायबिजिरग्राफोर )"
+      singular_placeholder: "से सानराय (जेरै: नायबिजिर)"
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: हानजा दा
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -89,34 +89,34 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      addresses_heading: Addresses
-      driver_heading: Choose a Driver
-      driver_label: Driver
-      from_label: Sender
+      addresses_heading: थंफोर
+      driver_heading: सालायग्रा बासि
+      driver_label: सालायग्रा
+      from_label: हरग्रा
       heading: => core.ref.email
       mail_encryption_label: Encryption
       mail_host_label: Host
       mail_mailgun_domain_label: Domain
-      mail_mailgun_secret_label: Secret key
-      mail_mandrill_secret_label: Secret key
+      mail_mailgun_secret_label: मिथिमोनै साबि
+      mail_mandrill_secret_label: मिथिमोनै साबि
       mail_password_label: => core.ref.password
-      mail_port_label: Port
-      mail_ses_key_label: Key
-      mail_ses_region_label: Region
-      mail_ses_secret_label: Secret
+      mail_port_label: गुदुं
+      mail_ses_key_label: साबि
+      mail_ses_region_label: जायगा
+      mail_ses_secret_label: मिथिमोनै
       mail_username_label: => core.ref.username
-      mailgun_heading: Mailgun Settings
-      mandrill_heading: Mandrill Settings
-      ses_heading: SES Settings
-      smtp_heading: SMTP Settings
+      mailgun_heading: Mailgun सेथिंस
+      mandrill_heading: Mandrill सेथिंस
+      ses_heading: SES सेथिंस
+      smtp_heading: SMTP सेथिंस
       submit_button: => core.ref.save_changes
-      text: Configure the driver, settings and addresses your forum will use to send email.
+      text: नोंनि फरामा इमैल हरनो हानायनि थाखाय सालायग्रा, सेथिंस आरो थंफोरखौ कनफिगार खालाम ।
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: बाहेराफोर दाजाबदेर
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: बोखार
 
     # These translations are used in the session dropdown menu.
     header:
@@ -124,58 +124,58 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: अन्नानै नेथ'...
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      appearance_button: नुथाय
+      appearance_text: "नोंनि फरामनि गाब, ल'ग'फोर आरो आलादा सोलायस्लुफोरखौ खास्थमाइस खालाम ।"
+      basics_button: गुदि
+      basics_text: "नोंनि फरामनि मुं, राव आरो गुदि सेथिंसफोरखौ सो ।"
+      dashboard_button: देसबर्ड
+      dashboard_text: नोंनि फरामनि सिगां नुथाय.
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      email_text: "फरामनि  इमैल सेथिंस कनफिगार खालाम ।"
+      extensions_button: दादेरनायफोर
+      extensions_text: नोंनि फरामाव बाहेरा हाबाफारिफोर दादेर आरो नोंनि आंगो खालाम ।
+      permissions_button: फारमिसनफोर
+      permissions_text: सोर नायनो आरो खालामनो हायो बेखौ कनफिगार खालाम ।
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Allow post editing
-      allow_renaming_label: Allow renaming
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      delete_posts_label: Delete posts
-      edit_posts_label: Edit posts
-      edit_users_label: Edit users
-      global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
+      allow_post_editing_label: फोसावनाय सोसननो हाहो
+      allow_renaming_label: मुं सोलायहो
+      create_heading: बानाय
+      delete_discussions_forever_label: जेब्लाबोनि थाखाय सावरायनायफोरखौ हुखोमोर
+      delete_discussions_label: सावरायनायफोरखौ हुखोमोर
+      delete_posts_forever_label: जेब्लाबोनि थाखाय फोसावनायफोरखौ हुखोमोर
+      delete_posts_label: फोसावनायफोरखौ हुखोमोर
+      edit_posts_label: फोसावनाय सोसन
+      edit_users_label: बाहायग्रफोरखौ सोसन
+      global_heading: भुमनाङै
+      moderate_heading: नायबिजिर
+      new_group_button: गोदान हान्जा
+      participate_heading: बाहागो ला
+      read_heading: फराय
+      rename_discussions_label: सावरायनाय मुं सोलाय
+      reply_to_discussions_label: सावरायनफोराव फिननाय हर
+      sign_up_label: मुंसाय थिसन
+      start_discussions_label: सावरायजेन
+      view_discussions_label: सावरायनाय नुथाय
       view_last_seen_at_label: Always view user last seen time
       view_post_ips_label: View post IP addresses
       view_user_list_label: View user list
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: जोबनोगैयैसिम
+      allow_some_minutes_button: "{count} मिनितसिम"
+      allow_ten_minutes_button: 10 मिनितसिम
+      allow_until_reply_button: इयुन फिन होजासिम
+      everyone_button: बइबो
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: जोख्लोब्बाय
+      signup_open_button: बेखेव
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -184,7 +184,7 @@ core:
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Choose an Image...
+      upload_button: सावगारि बासि...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -194,31 +194,31 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: नों सोनाय बारगसोदोबा जायाखै
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: बारगसोदोम खालामफिननायनि इमेलखौ हरफिन
+      text: गाहायनि गुदामाव थुना हो आरो बारगसोदोम सोलायनो नोंनि इमैलाव हरनाय लिंखखौ नाय ।
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
-      preview_tooltip: Preview
+      close_tooltip: फांथे
+      exit_full_screen_tooltip: गुवार नुथायनिफ्राय बारग'
+      full_screen_tooltip: गुवार नुथाय
+      minimize_tooltip: फिसा खालाम
+      preview_tooltip: नायगोर
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      body_placeholder: मोनसे फोसावनाय लिर...
+      discard_confirmation: "नोंङो नोंनि सावरायनायखौ सोहराखै । नोंङो बेखौ इंगारसै नामा?"
+      submit_button: सावरायनाय सोहर
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: सावरायनाय आयदा
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -236,8 +236,8 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: फिनहोनो हाया
+      cannot_reply_text: नोंहा बे सावरायनायाव फिन होनो खम'थ गैया ।
       delete_button: => core.ref.delete
       delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_forever_button: => core.ref.delete_forever
@@ -274,14 +274,14 @@ core:
       email_placeholder: => core.ref.email
       email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
       not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      submit_button: बारगसोदोब बोखांफिन
+      text: नोंनि इमैलनि थं हो, जोंङो बेयाव बारगसोदोब सोलायनायनि लिंख हरगोन ।
+      title: बारगसोदोब बावबाय
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
-      back_to_index_tooltip: Back to Discussion List
+      admin_button: गोरायुं
+      back_to_index_tooltip: सावारायनायनि सारियाव थांफिन
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profile
@@ -497,93 +497,87 @@ core:
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
-
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
       body: |
-        Hey {username}!
-
-        Someone (hopefully you!) has signed up to {forum} with this email address.
-
-        If this was you, simply click the following link and your account will be activated:
+        Bonjour {username} !
+        Quelqu’un (en espérant que cela soit vous !) s’est inscrit sur {forum} avec cette adresse de courriel.
+        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :
         {url}
-
-        If you did not sign up, please ignore this email.
-
+        Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
+      subject: Activate Your New Account
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
-      body: |
-        Hey {username}!
+      body: >
+        खुलुमबाय {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        सोरबा (जानो हागौ बा नोंथांङानो), {forum} आव नोंनि खाथानि  इमैलखौ नैबे इमैलजों सोलायबाय ।
 
-        If this was you, simply click the following link and your email will be confirmed:
+        जुदि बेयो नोंनोब्ला, इमैल सोलानायखौ रोखा खालामनो गाहायनि लिंखआव थुना हो
+
         {url}
 
-        If this was not you, please ignore this email.
-
+        जुदि बे नों नंङामोनब्ला, खालि बे इमैलखौ इंगारना था, होमब्लानो जेबो जानाय नङा ।
+      subject: Confirm Your New Email Address
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
-      subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        खुलुमबाय {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        सोरबा (जानो हागौ बा नोंथांङानो), {forum} आव नोंनि खाथानि  बारग'सोदोब बावनायखौ फिरायफिननो थाखाय अनसायनाय सोहरदों ।
 
-        If this was you, click the following link to reset your password:
+        जुदि बेयो नोंनोब्ला, बारग'सोदोबखौ फिरायफिननो गाहायनि लिंखआव थुना हो
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
-
+        जुदि नों बारगसोदोबखौ सोलायनो गोसो गैयाब्ला, खालि बे इमैलखौ इंगारना था, होमब्लानो जेबो जानाय नङा ।
+      subject: => core.ref.reset_your_password
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
-    custom_footer_title: Edit Custom Footer
-    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-    custom_header_title: Edit Custom Header
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
-    email: Email
+    all_discussions: गासिबो सावरायनायफोर
+    change_email: इमैल सोलाय
+    change_password: बारगसोदोब सोलाय
+    color: गाब                                 # Referenced by flarum-tags.yml
+    confirm_password: बारगसोदोबखौ बिजिरफिन
+    confirmation_email_sent: "जोंङो मोनसे  फिनमोनथिहोनाय इमैलखौ {email} आव हरबाय  । जुदि  बेयो दाबोनो सौहैयाखै, स्पाम फलदाराव नाय ।"
+    custom_footer_text: फ्लेरामनि हासानि गाहायाव HTML दाजाबदेर जाय गासिबो बिलायफोरनि हासायाव नुजायो ।
+    custom_footer_title: आलादा हासा सोसन
+    custom_header_text: "फ्लेरामनि खर'सानि सायाव HTML दाजाबदेर, जाय गासिबो बिलायफोरनि खर'सायाव नुजायो ।"
+    custom_header_title: आलादा खर'सा सोसन
+    delete: हुखोमोर
+    delete_forever: जेब्लाबोनि थाखाय हुखोमोर
+    discussions: सावरायनायफोर                     # Referenced by flarum-statistics.yml
+    edit: सोसन
+    email: इमैल
     icon: Icon
-    icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    posts: Posts                                 # Referenced by flarum-statistics.yml
-    previous_page: Previous Page
-    remove: Remove
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    users: Users                                 # Referenced by flarum-statistics.yml
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    icon_text: "<a>FontAwesome</a> icon class नि जिखुनु जाया मु सो, <em>लोगोसेयै</em> <code>fas fa-</code> खौ सिगां होदेरनानै ।"
+    load_more: बांसिन बरन
+    log_in: सिङाव हाब
+    log_out: बाहेरा थां
+    mark_all_as_read: गासिखौबो नायबाय होनना सिन हो
+    next_page: उन बिलाय
+    notifications: मिथिहोनायफोर
+    okay: जाबाय                                     # Referenced by flarum-tags.yml
+    password: बारगसोदोब
+    posts: फोसावनायफोर                                 # Referenced by flarum-statistics.yml
+    previous_page: सिगां बिलाय
+    remove: बोखार
+    rename: मुं सोलाय
+    reply: फिन हो                                 # Referenced by flarum-mentions.yml
+    reset_your_password: नोंनि बारगसोदोबखौ फिरायफिन
+    restore: जथायफिन
+    save_changes: सोलायनायखौ जथाय                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: सेथिंसफोर
+    sign_up: मुंसाय थिसन
+    some_others: "{count} गुबुन |{count} गुबुनफोर"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: मोनसे सावरायनाय जागाय
+    username: बाहायग्रामुं
+    users: बाहायगिरिफोर                                 # Referenced by flarum-statistics.yml
+    write_a_reply: मोनसे फिननाय लिर...
+    you: नों                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -591,11 +585,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: गोरायुं
+    admins: गोरायुंफोर
+    guest: आलासि
+    guests: आलासिफोर
+    member: सोद्रोमा
+    members: सोद्रोमाफोर
+    mod: नायबिजिरग्रा
+    mods: नायबिजिरग्राफोर
