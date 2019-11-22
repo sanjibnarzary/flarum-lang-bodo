@@ -22,7 +22,7 @@
             "dev-master": "1.4.x-dev"
         },
         "flarum-extension": {
-            "title": "French",
+            "title": "Bodo",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#fff",
