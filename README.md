@@ -1,14 +1,14 @@
-# French Language Pack for [Flarum](https://flarum.org/)
+# Bodo Language Pack for [Flarum](https://flarum.org/)
 
-[![Build Status](https://travis-ci.org/milescellar/lang-french.svg?branch=master)](https://travis-ci.org/milescellar/lang-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
+[![Build Status](https://travis-ci.org/sanjibnarzary/flarum-lang-bodo.svg?branch=master)](https://travis-ci.org/sanjibnarzary/flarum-lang-bodo)
 
-French language pack to localize the Flarum forum software, its bundled extensions and libraries.
+Bodo language pack to localize the Flarum forum software, its bundled extensions and libraries.
 
-If you're looking for French translations of third-party extensions for Flarum, please check [this repository](https://github.com/rooaaar/lang-french-extended).
+If you're looking for Bodotranslations of third-party extensions for Flarum, please check [this repository](https://github.com/rooaaar/lang-french-extended).
 
 ## Informations
 
-Includes the following French locales compatible with:
+Includes the following Bodo locales compatible with:
 
 - [Flarum 0.1.0 Beta 10](https://github.com/flarum/core)
   - Bundled extensions:
@@ -33,14 +33,14 @@ Includes the following French locales compatible with:
     - [Laravel's Validation Rules 6.0.2](https://github.com/laravel/laravel)
     - [Moment.js 2.24.0](https://github.com/moment/moment)
 
-Released under the MIT license. Please see [the license terms](https://github.com/milescellar/lang-french/blob/master/LICENSE).
+Released under the MIT license. Please see [the license terms](https://github.com/sanjibnarzary/flarum-lang-bodo/blob/master/LICENSE).
 
 ## Installation
 
-Flarum use Composer to manage its dependencies and extensions. The French language pack is available [on Packagist](https://packagist.org/packages/milescellar/lang-french) and can be managed that way. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
+Flarum use Composer to manage its dependencies and extensions. The Bodo language pack is available [on Packagist](https://packagist.org/packages/sanjibnarzary/flarum-lang-bodo) and can be managed that way. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
 ```shell
-composer require milescellar/lang-french
+composer require sanjibnarzary/flarum-lang-bodo
 ```
 
-The same command can be used to update independently the French language pack, without updating anything else. Note that because the French language pack will be added as a Flarum's dependency, it will also be automatically updated when updating Flarum and its dependencies via Composer.
+The same command can be used to update independently the Bodo language pack, without updating anything else. Note that because the Bodo language pack will be added as a Flarum's dependency, it will also be automatically updated when updating Flarum and its dependencies via Composer.

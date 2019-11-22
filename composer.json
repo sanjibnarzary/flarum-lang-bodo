@@ -1,18 +1,18 @@
 {
-    "name": "milescellar/lang-french",
-    "description": "French language pack for Flarum and its bundled extensions.",
+    "name": "sanjibnarzary/flarum-lang-bodo",
+    "description": "Bodo language pack for Flarum and its bundled extensions.",
     "type": "flarum-extension",
-    "keywords": ["extension", "flarum", "french", "locale", "translation"],
+    "keywords": ["extension", "flarum", "bodo", "locale", "translation"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Miles Cellar",
-            "email": "milescellar@protonmail.com"
+            "name": "Sanjib Narzary",
+            "email": "o-._.-o@live.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/milescellar/lang-french/issues",
-        "source": "https://github.com/milescellar/lang-french"
+        "issues": "https://github.com/sanjibnarzary/flarum-lang-bodo/issues",
+        "source": "https://github.com/sanjibnarzary/flarum-lang-bodo"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.10"
@@ -31,11 +31,11 @@
             }
         },
         "flarum-locale": {
-            "code": "fr",
-            "title": "Français"
+            "code": "brx",
+            "title": "Bodo"
         },
         "flagrow": {
-            "discuss": "https://discuss.flarum.org/d/615-french-language-pack"
+            "discuss": "https://discuss.flarum.org/d/22046-bodo-language-pack"
         }
     }
 }
